@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="872f2042-d68f-4206-8349-38919785ffde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,17 +20,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+              <folding>
+                <element signature="e#59#60#0" expanded="true" />
+                <element signature="e#87#88#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#63#64#0" expanded="true" />
+                <element signature="e#99#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,15 +67,29 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="28" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/calculatorTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/java/calculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calculator.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CalculatorTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="374" />
+    <option name="y" value="24" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -79,7 +122,21 @@
               <item name="JunitTestMervin" type="b2602c69:ProjectViewProjectNode" />
               <item name="JunitTestMervin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JunitTestMervin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JunitTestMervin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JunitTestMervin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JunitTestMervin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -89,7 +146,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551710819916" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551713375660" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CalculatorTest.sum">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JunitTestMervin" />
@@ -111,8 +180,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitTestMervin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="sum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculatorTest.sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitTestMervin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="calculatorTest" />
+      <option name="METHOD_NAME" value="sum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.sum" />
+        <item itemvalue="JUnit.calculatorTest.sum" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -142,11 +233,33 @@
       <option name="project" value="LOCAL" />
       <updated>1551710390447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Main Class.">
+      <created>1551710846125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551710846125</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Main Class.">
+      <created>1551710856192</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551710856192</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="calculatorTest_sum - 2019.03.04 at 21h 28m 00s.xml">
+      <configuration name="calculatorTest.sum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_sum - 2019.03.04 at 21h 29m 31s.xml">
+      <configuration name="CalculatorTest.sum" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="28" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -154,14 +267,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3298731" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30985916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -178,20 +292,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit." />
+    <MESSAGE value="Main Class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Main Class." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/calculatorTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#59#60#0" expanded="true" />
+            <element signature="e#87#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
